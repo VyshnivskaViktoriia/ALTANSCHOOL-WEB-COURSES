@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&display=swap');
+@import url(reset.css);
+
+body {
+    font-family: "Crimson Text", serif;
+    overflow-x: none;
+}
+
+.container {
+    max-width: 1280px;
+    padding-left: 78px;
+    padding-right: 133px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.head {
+    background-color: #FAF9F8;
+    padding-top: 61px;
+}
+
+.head-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.head-nav.open .head-list {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 1;
+    padding: 46px 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.nav-btn-container {
+    display: none;
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8E9A82;
+    width: 63px;
+    height: 47px;
+    border-radius: 6px;
+    flex-direction: column;
+    row-gap: 8px;
+    padding: 8px 11px;
+}
+
+.nav-btn span {
+    background-color: #D9D9D9;
+    width: 41px;
+    height: 5px;
+}
+
+.head-list {
+    display: flex;
+    column-gap: 64px;
+    align-items: center;
+}
+
+
+.logo {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.head-list a {
+    color: black;
+    font-size: 16px;
+}
+
+/* Organic */
+
+.organic-section {
+    display: flex;
+    margin-top: 121px;
+    column-gap: 145px;
+    flex-direction: row;
+    justify-content:flex-start;
+    padding-bottom: 131px;
+}
+
+.organic-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 54px;
+    max-width: 535px;
+}
+
+.organic-title {
+    font-size: 48px;
+    letter-spacing: 15%;
+}
+
+.organic-content p {
+    font-size: 20px;
+}
+
+.organic-content img {
+    float: right;
+}
+
+.organic-btn {
+    background-color: #8E9A82;
+    color: #fff;
+    font-size: 20px;
+    padding: 18px 42px;
+    border-radius: 59px;
+    max-width: 206px;
+}
+
+/* Shop by category */
+
+.shop-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-top: 77px;
+}
+
+.shop-title {
+    text-align: center;
+    font-size: 32px;
+}
+
+.shop-images {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-top: 80px;
+}
+
+.images-row {
+    display: flex;
+    column-gap: 15px;
+}
+
+/* Collection */
+
+.collection-section {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 91px;
+    padding-top: 80px;
+    background: linear-gradient(to bottom, #F1F1F1 393px, #DBDBDB 405px);
+}
+
+.collection-title { 
+    text-align: center;
+    margin-bottom: 102px;
+    font-size: 32px;
+    letter-spacing: 15%;
+}
+
+.collection-images {
+    display: flex;
+    column-gap: 79px;
+}
+
+.collection-text {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 59px;
+}
+
+/* About US */
+
+.about-section {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 42px;
+    padding-right: 103px;
+    display: flex; 
+    padding-top: 107px;
+    padding-bottom: 69px;
+}
+
+.about-section im {
+    margin-right: 94px;
+}
+
+.about-title {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 15%;
+    margin-bottom: 37px;
+}
+
+.about-text {
+    font-size: 20px;
+}
+
+.about-btn {
+   border: 5px solid #8E9A82; 
+   font-size: 20px;
+   letter-spacing: 15%;
+   padding: 20px 27px;
+   border-radius: 10px;
+   margin-top: 45px;
+}
+
+.about-content {
+    max-width: 725px;
+}
+
+.about-content p:first-of-type {
+    margin-bottom: 21px;
+}
+
+.follow-section {
+    background: linear-gradient(to right, #F1F1F1 898px, #DBDBDB 384px);
+}
+
+.follow-container {
+    max-width: 1282px;
+    margin: 0 auto;
+    padding-left: 118px;
+    padding-right: 103px;
+    padding-top: 78px;
+    padding-bottom: 96px;
+    display: flex;
+}
+
+.follow-form {
+    max-width: 725px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+    margin-top: 66px;
+    margin-bottom: 73px;
+}
+
+.follow-title {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 15%;
+    padding-bottom: 33px;
+}
+
+.follow-name, .follow-message {
+    border: 5px solid #8E9A82;
+    border-radius: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.follow-name {
+    width: 561px;
+    height: 81px;
+    font-size: 20px;
+}
+
+.follow-message {
+    width: 561px;
+    height: 130px;
+}
+
+.follow-container img {
+    margin-left: 62px;
+}
+
+.follow-btn {
+    background-color: #8E9A82;
+    color: #fff;
+    padding: 16px 58px;
+    font-size: 20px;
+    letter-spacing: 15%;
+    border-radius: 10px;
+    margin-top: 32px;
+    display: block;
+}
